@@ -1,0 +1,180 @@
+.wrap{
+    position: relative;
+    max-width: 1024px;
+    margin:0 auto;
+    text-align:center;
+    background: url('../img/Hero.png') top no-repeat;
+}
+h1{
+    margin:auto;
+    font-size:40px;
+    color:white;
+    padding-top:89px;
+    padding-bottom:96px;
+
+}
+h2{
+    color:#8A82CC;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom:24px;
+}
+.area{
+    appearance: none;
+    background: url("../img/icons_down.png") no-repeat right center  transparent;
+    background-position-x: 419px;
+    background-color:rgba(256,256,256,0.7);
+    border:3px solid white;
+    border-radius: 3px;
+    width: 452px;
+    max-width: 452px;
+    height: 48px;
+    outline:medium;
+}
+.area:hover{
+    cursor: pointer;
+}
+.areaBox{
+    margin:auto;
+    margin-top:79px;
+    padding:20px 26px 18px 26px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 800px;
+    height: 112px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    text-align: left;
+}
+.hotBoxNav{
+    display:flex;
+    color:white;
+    padding:14px 25px 18px 25px;
+}
+.hotBox{
+    
+    text-align: center;
+    line-height: 42px;
+    border-radius: 5px;
+    margin-right:23px;
+    width: 130px;
+    height: 42px;
+    background-color: #aaa;
+
+}
+.hotBox:hover{
+    cursor: pointer;
+}
+.line{
+    position:relative;
+    margin:49px auto 79px auto;
+    border-top:1px dashed #559AC8;
+    max-width: 900px;
+    height: 1px;
+}
+.line::after{
+    position:absolute;
+    top:-12px;
+    content:url("../img/icons_down.png");
+    background-color: #fff;
+    padding:4px;
+    width: 16px;
+    border: 1px solid #559AC8;
+    border-radius: 50%;
+}
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:24px 40px;
+}
+.box{
+    position: relative;
+    flex: 0 1 auto;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+    margin-bottom:36px;
+}
+.item{
+    width: 464px;
+    min-width:350px;
+    text-align:left;
+    padding:16px 24px;
+}
+.item li span{
+    font-size: 16px;
+    line-height: 32px;
+}
+.free{
+    position: absolute;
+    left:346px;
+    bottom:20px;
+}
+.free span{
+    margin-left:8px;
+}
+.free img{
+    vertical-align: middle;
+}
+
+.areaImg{
+    position: relative;
+    overflow:hidden;
+    max-width: 464px;
+    height: 155px;
+}
+.areaImg img{
+    position: absolute;
+    width: 100%;
+    left:0px;
+    top:-45%;
+
+}
+.attractionName{
+    position: absolute;
+    color:white;
+    font-size: 24px;
+    left:22px;
+    bottom:14px;
+}
+.areaName{
+    position: absolute;
+    font-size: 16px;
+    right:24px;
+    bottom:11px;
+    color:white;
+}
+.icon{
+    display:inline-block;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right:10px;
+}
+
+/* footer */
+footer{
+    font-size: 14px;
+    background-color: #559AC8;
+    height: 90px;
+    vertical-align: middle;
+    padding:24px;
+}
+footer :nth-child(1){
+    color:white;
+    font-size:14px;
+    margin-bottom: 15px;
+
+}
+footer :nth-child(2){
+    color:#FFD366;
+    font-size:14px;
+}
+
+.goTop{
+    position: absolute;
+    bottom:149px;
+    right: 28px;
+    width: 24px;
+    height: 24px;
+    transition: .5s;
+    cursor:pointer;
+}
